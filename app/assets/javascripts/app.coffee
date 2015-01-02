@@ -1,0 +1,2 @@
+reclist = angular.module('reclist',[
+])
