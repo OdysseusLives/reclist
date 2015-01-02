@@ -1,0 +1,36 @@
+{
+  "name": "reclist",
+  "version": "1.0.0",
+  "description": "webapp for reading recommendations",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt" : "0.4.0",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-watch": "latest",
+    "jshint": "latest"
+  },
+  "scripts": {
+    "preinstall": "echo here it comes!",
+    "jshint": "./node_modules/.bin/jshint app/assets/javascripts/."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OdysseusLives/reclist.git"
+  },
+  "keywords": [
+    "rec",
+    "reading",
+    "reclist"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OdysseusLives/reclist/issues"
+  },
+  "homepage": "https://github.com/OdysseusLives/reclist"
+}
