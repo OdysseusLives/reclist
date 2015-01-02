@@ -7,10 +7,11 @@
     "doc": "doc",
     "test": "test"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "bower": "latest",
-    "grunt": "0.4.0",
+    "grunt": "0.4.0"
+  },
+  "devDependencies": {
     "grunt-contrib-jshint": "latest",
     "grunt-contrib-watch": "latest",
     "jshint": "latest"
