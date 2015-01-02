@@ -2,5 +2,15 @@
 
 This is a small recommendation list application.  
 
+Requirements: 
 * Ruby version: 2.2.0
+* Rails version: 4.2.0
 * Database: postgres
+* npm
+
+Installation 
+* $ git clone https://github.com/OdysseusLives/reclist.git
+* $ cd reclist
+* $ bundle install
+* $ npm install
+* $ rails s
