@@ -16,7 +16,8 @@
   },
   "scripts": {
     "preinstall": "echo here it comes!",
-    "jshint": "./node_modules/.bin/jshint app/assets/javascripts/."
+    "jshint": "./node_modules/.bin/jshint app/assets/javascripts/.",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
