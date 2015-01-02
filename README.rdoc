@@ -9,8 +9,18 @@ Requirements:
 * npm
 
 Installation 
-* $ git clone https://github.com/OdysseusLives/reclist.git
-* $ cd reclist
-* $ bundle install
-* $ npm install
-* $ rails s
+```
+$ git clone https://github.com/OdysseusLives/reclist.git
+$ cd reclist
+$ bundle install
+$ npm install
+$ rails s
+```
+
+To run jshint: 
+``` grunt jshint ```
+or
+``` npm run jshint ```
+
+To have jshint watch files: 
+``` grunt watch ```
