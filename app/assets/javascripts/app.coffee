@@ -1,2 +1,0 @@
-reclist = angular.module('reclist',[
-])
