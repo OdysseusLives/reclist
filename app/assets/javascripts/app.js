@@ -3,6 +3,7 @@
 
     angular
         .module('reclist', [
-            'ui.router'
+            'ui.router',
+            'templates'
         ]);
 })();
