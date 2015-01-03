@@ -4,16 +4,16 @@ module.exports = function (grunt) {
 
     jshint: {
       all: {
-        src: 'app/assets/javascripts/*.js',
+        src: 'app/assets/javascripts/**/*.js',
         options: {
           jshintrc: '.jshintrc'
-        },
+        }
       }
     },
 
     watch: {
       jshint: {
-        files: 'app/assets/javascripts/*.js',
+        files: 'app/assets/javascripts/**/*.js',
         tasks: 'jshint'
       }
     }
