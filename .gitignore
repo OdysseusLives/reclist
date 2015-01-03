@@ -1,8 +1,16 @@
 node_modules
 
+# Ignore all logfiles and tempfiles.
 log
 tmp
+
+# Ignore generated documentation
 doc
+doc/generated/app
+doc/generated/javascripts
+
+# Ignore compiled assets
+public/assets
 
 */.DS_Store
 .idea
