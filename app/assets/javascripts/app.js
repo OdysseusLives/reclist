@@ -3,5 +3,6 @@
 
     angular
         .module('reclist', [
+            'ui.router'
         ]);
 })();
