@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('reclist')
+        .module('Reclist')
         .config(function ($stateProvider, $urlRouterProvider) {
             $urlRouterProvider.otherwise('/');
 

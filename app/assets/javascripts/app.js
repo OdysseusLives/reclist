@@ -1,9 +1,5 @@
 (function() {
     'use strict';
 
-    angular
-        .module('reclist', [
-            'ui.router',
-            'templates'
-        ]);
+    angular.module('Reclist', ['ui.router', 'templates']);
 })();
