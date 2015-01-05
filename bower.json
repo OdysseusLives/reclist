@@ -22,8 +22,9 @@
   ], 
   "dependencies": {
     "angular": "latest",
-    "angular-ui-router": "latest",
     "angular-animate": "latest",
+    "angular-mocks": "latest",
+    "angular-ui-router": "latest",
     "bootstrap-sass-official": "3.3.1"
   }
 }
