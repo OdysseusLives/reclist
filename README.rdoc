@@ -2,11 +2,11 @@
 
 This is a small recommendation list application.  
 
-Requirements: 
-* Ruby version: 2.2.0
-* Rails version: 4.2.0
-* Database: postgres
-* npm
+Requirements:<br>
+Ruby version: 2.2.0<br>
+Rails version: 4.2.0<br>
+Database: postgres<br>
+npm
 
 Installation 
 
