@@ -26,5 +26,9 @@ group :development, :test do
   gem 'spring'
 end
 
+group :development do
+  gem 'quiet_assets'
+end
+
 # Heroku
 gem 'rails_12factor'
