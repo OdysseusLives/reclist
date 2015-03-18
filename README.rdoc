@@ -16,6 +16,9 @@ Installation
     $ npm install
     $ rails s
 
+Updating angular's templates?
+    run `rake assets:precompile`
+    then restart the rails server
 
 To run jshint: 
     grunt jshint

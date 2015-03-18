@@ -3,4 +3,24 @@
   <ul>
     <li ng-repeat="thing in things">{{thing}}</li>
   </ul>
+
+  <h1>Recommendations</h1>
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Rating</th>
+      <th>Summary</th>
+    </tr>
+    <tr ng-repeat="rec in recs">
+      <td>{{rec.title}}</td>
+      <td>{{rec.author}}</td>
+      <td>{{rec.rating}}</td>
+      <td>{{rec.summary}}</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <p>Woo!  A shiny thing.</p>
 </div>
