@@ -6,7 +6,7 @@
         <th>Rating</th>
         <th>Summary</th>
     </tr>
-    <tr ng-repeat="rec in recs">
+    <tr ng-repeat="rec in recs | filter: filterTerm">
         <td>{{rec.title}}</td>
         <td>{{rec.author}}</td>
         <td>{{rec.rating}}</td>

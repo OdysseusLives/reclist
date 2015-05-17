@@ -5,7 +5,10 @@
         .directive('recommendations', function($log) {
             return {
                 restrict: 'AE',
-                scope: { recs: '=' },
+                scope: {
+                    recs: '=',
+                    filterTerm: '=filter'
+                },
                 templateUrl: 'recommendations.html'
             }
         });
