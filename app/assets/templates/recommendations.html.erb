@@ -1,14 +1,14 @@
 <table>
     <tr>
-        <th>Title</th>
-        <th>Author</th>
-        <th>Rating</th>
-        <th>Summary</th>
+        <th class="col-sm-1">Title</th>
+        <th class="col-sm-1">Author</th>
+        <th class="col-sm-1">Rating</th>
+        <th class="col-sm-4">Summary</th>
     </tr>
     <tr ng-repeat="rec in recs | filter: filterText">
-        <td>{{rec.title}}</td>
-        <td>{{rec.author}}</td>
-        <td>{{rec.rating}}</td>
-        <td>{{rec.summary}}</td>
+        <td class="col-sm-1">{{rec.title}}</td>
+        <td class="col-sm-1">{{rec.author}}</td>
+        <td class="col-sm-1">{{rec.rating}}</td>
+        <td class="col-sm-4">{{rec.summary}}</td>
     </tr>
 </table>
