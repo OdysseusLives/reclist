@@ -5,7 +5,7 @@
         .directive('filterRecommendations', function() {
             return {
                 restrict: 'AE',
-                scope: { filter: '=' },
+                scope: { filterText: '=' },
                 templateUrl: 'filterRecommendations.html'
             }
         });

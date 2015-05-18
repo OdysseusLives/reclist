@@ -7,7 +7,7 @@
                 restrict: 'AE',
                 scope: {
                     recs: '=',
-                    filterTerm: '=filter'
+                    filterText: '='
                 },
                 templateUrl: 'recommendations.html'
             }

@@ -17,6 +17,8 @@
                     summary: 'a cautionary dystopian tale.'
                 }
             ];
-            $scope.filter = '';
+            $scope.filters = {
+                filterText: ''
+            };
         });
 })();
