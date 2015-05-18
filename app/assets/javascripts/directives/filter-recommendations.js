@@ -7,6 +7,6 @@
                 restrict: 'AE',
                 scope: { filterText: '=' },
                 templateUrl: 'filterRecommendations.html'
-            }
+            };
         });
 })();

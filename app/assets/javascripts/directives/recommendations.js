@@ -2,7 +2,7 @@
     'use strict';
 
     angular.module('Reclist')
-        .directive('recommendations', function($log) {
+        .directive('recommendations', function() {
             return {
                 restrict: 'AE',
                 scope: {
@@ -10,6 +10,6 @@
                     filterText: '='
                 },
                 templateUrl: 'recommendations.html'
-            }
+            };
         });
 })();
