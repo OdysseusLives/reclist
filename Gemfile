@@ -9,6 +9,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'bower-rails'
 gem 'jquery-rails'
 gem 'angular-rails-templates', '0.1.2'
+gem 'angular-ui-bootstrap-rails', '~> 0.12.1'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password

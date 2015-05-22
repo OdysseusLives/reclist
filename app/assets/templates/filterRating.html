@@ -1,0 +1,5 @@
+<rating ng-model="filterRating" max="10"></rating>
+<span class="label"
+      ng-class="{'label-warning': filterRating<3, 'label-info': filterRating>=3 && filterRating<7, 'label-success': filterRating>=7}">
+  {{filterRating}}0%
+</span>
