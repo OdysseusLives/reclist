@@ -5,11 +5,8 @@
         .directive('filterRating', function() {
             return {
                 restrict: 'AE',
-                scope: { },
-                templateUrl: 'filterRating.html',
-                link: function(scope) {
-                    scope.filterRating = 5;
-                }
+                scope: { ratingNumber: '=' },
+                templateUrl: 'filterRating.html'
             };
         });
 })();

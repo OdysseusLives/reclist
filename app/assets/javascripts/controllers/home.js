@@ -18,7 +18,8 @@
                 }
             ];
             $scope.filters = {
-                filterText: ''
+                filterText: '',
+                ratingNumber: 5
             };
         });
 })();
