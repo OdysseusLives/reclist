@@ -7,9 +7,15 @@
                 restrict: 'AE',
                 scope: {
                     recs: '=',
-                    filterText: '='
+                    filterText: '=',
+                    ratingNumber: '='
                 },
-                templateUrl: 'recommendations.html'
+                templateUrl: 'recommendations.html',
+                link: function(scope) {
+                    scope.filterRating = function( rec ) {
+                        return rec.rating >= scope.ratingNumber;
+                    };
+                }
             };
         });
 })();

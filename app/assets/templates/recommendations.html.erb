@@ -5,7 +5,7 @@
         <th class="col-sm-1">Rating</th>
         <th class="col-sm-4">Summary</th>
     </tr>
-    <tr ng-repeat="rec in recs | filter: filterText">
+    <tr ng-repeat="rec in recs | filter: filterText | filter: filterRating">
         <td class="col-sm-1">{{rec.title}}</td>
         <td class="col-sm-1">{{rec.author}}</td>
         <td class="col-sm-1">{{rec.rating}}</td>
